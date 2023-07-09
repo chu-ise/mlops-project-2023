@@ -1377,13 +1377,13 @@ gitdb = ">=4.0.1,<5"
 
 [[package]]
 name = "gradio"
-version = "3.33.1"
+version = "3.36.1"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "gradio-3.33.1-py3-none-any.whl", hash = "sha256:6650232c88dad1b78f8df3795cf44c52600b5bb96166f18d233e5454547725ae"},
-    {file = "gradio-3.33.1.tar.gz", hash = "sha256:e79033692606b945dcc2bc8f38a3cd2c3a1acd37087365215c1bb00ad7f76aa3"},
+    {file = "gradio-3.36.1-py3-none-any.whl", hash = "sha256:69f60c29d79fb93b2545466d367e5998d6db57379469a4067c8717ccd34015e1"},
+    {file = "gradio-3.36.1.tar.gz", hash = "sha256:1d821cee15da066c24c197248ba9aaed5f5e59505d17754561c2f96f90e73a89"},
 ]
 
 [package.dependencies]
@@ -1392,7 +1392,7 @@ aiohttp = "*"
 altair = ">=4.2.0"
 fastapi = "*"
 ffmpy = "*"
-gradio-client = ">=0.2.4"
+gradio-client = ">=0.2.7"
 httpx = "*"
 huggingface-hub = ">=0.14.0"
 jinja2 = "*"
@@ -1411,19 +1411,18 @@ python-multipart = "*"
 pyyaml = "*"
 requests = "*"
 semantic-version = "*"
-typing-extensions = "*"
 uvicorn = ">=0.14.0"
 websockets = ">=10.0"
 
 [[package]]
 name = "gradio-client"
-version = "0.2.5"
+version = "0.2.7"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "gradio_client-0.2.5-py3-none-any.whl", hash = "sha256:922a5188c93797adce023b4caa655318b9c09834095d31763443c1e7a707e301"},
-    {file = "gradio_client-0.2.5.tar.gz", hash = "sha256:1a24dd7a09976db70fd32cdb5512b6f7b15c1a084f310b5f6b3021c9794d90a4"},
+    {file = "gradio_client-0.2.7-py3-none-any.whl", hash = "sha256:4a7ec6bb1341c626051f1ed24d50cb960ff1a4cd1a5db031dd4caaf1ee7d2d0a"},
+    {file = "gradio_client-0.2.7.tar.gz", hash = "sha256:c83008df8a1dd3f81a290c0a24c03d0ab70317741991b60f713620ed39ad8f12"},
 ]
 
 [package.dependencies]
@@ -5164,4 +5163,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "8c4ce9d32759d08649cd6c6c4afe47359f803ceabb539f6d599a8ea652a8787d"
+content-hash = "89d96d54d0c9ae85290726eda4028ed8687166b8e75bc0756f49325ab64949d9"
