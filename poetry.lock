@@ -1377,53 +1377,53 @@ gitdb = ">=4.0.1,<5"
 
 [[package]]
 name = "gradio"
-version = "3.33.1"
+version = "3.38.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "gradio-3.33.1-py3-none-any.whl", hash = "sha256:6650232c88dad1b78f8df3795cf44c52600b5bb96166f18d233e5454547725ae"},
-    {file = "gradio-3.33.1.tar.gz", hash = "sha256:e79033692606b945dcc2bc8f38a3cd2c3a1acd37087365215c1bb00ad7f76aa3"},
+    {file = "gradio-3.38.0-py3-none-any.whl", hash = "sha256:3ac954349ab00e1d78c6b87940e49853e5fb800a1ef35ff0a24796eb2f4803f5"},
+    {file = "gradio-3.38.0.tar.gz", hash = "sha256:cc08db00efd8ab00fef2d655f80ee18d4330fe08d0d412914cb0606b4a05881b"},
 ]
 
 [package.dependencies]
-aiofiles = "*"
-aiohttp = "*"
-altair = ">=4.2.0"
+aiofiles = ">=22.0,<24.0"
+aiohttp = ">=3.0,<4.0"
+altair = ">=4.2.0,<6.0"
 fastapi = "*"
 ffmpy = "*"
-gradio-client = ">=0.2.4"
+gradio-client = ">=0.2.10"
 httpx = "*"
 huggingface-hub = ">=0.14.0"
-jinja2 = "*"
+jinja2 = "<4.0"
 markdown-it-py = {version = ">=2.0.0", extras = ["linkify"]}
-markupsafe = "*"
-matplotlib = "*"
+markupsafe = ">=2.0,<3.0"
+matplotlib = ">=3.0,<4.0"
 mdit-py-plugins = "<=0.3.3"
-numpy = "*"
-orjson = "*"
-pandas = "*"
-pillow = "*"
-pydantic = "*"
+numpy = ">=1.0,<2.0"
+orjson = ">=3.0,<4.0"
+packaging = "*"
+pandas = ">=1.0,<3.0"
+pillow = ">=8.0,<11.0"
+pydantic = ">=1.7.4,<1.8 || >1.8,<1.8.1 || >1.8.1,<2.0.0 || >2.0.0,<2.0.1 || >2.0.1,<3.0.0"
 pydub = "*"
-pygments = ">=2.12.0"
 python-multipart = "*"
-pyyaml = "*"
-requests = "*"
-semantic-version = "*"
-typing-extensions = "*"
+pyyaml = ">=5.0,<7.0"
+requests = ">=2.0,<3.0"
+semantic-version = ">=2.0,<3.0"
+typing-extensions = ">=4.0,<5.0"
 uvicorn = ">=0.14.0"
-websockets = ">=10.0"
+websockets = ">=10.0,<12.0"
 
 [[package]]
 name = "gradio-client"
-version = "0.2.5"
+version = "0.2.10"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "gradio_client-0.2.5-py3-none-any.whl", hash = "sha256:922a5188c93797adce023b4caa655318b9c09834095d31763443c1e7a707e301"},
-    {file = "gradio_client-0.2.5.tar.gz", hash = "sha256:1a24dd7a09976db70fd32cdb5512b6f7b15c1a084f310b5f6b3021c9794d90a4"},
+    {file = "gradio_client-0.2.10-py3-none-any.whl", hash = "sha256:8b1e32093f766812b91c65756e85ad8bbe6d60b885b87b47908a72359c8d72a0"},
+    {file = "gradio_client-0.2.10.tar.gz", hash = "sha256:d4f93c86649f7662ec16861506ae864d18667422e8c8ecc227360f2aedcffdc9"},
 ]
 
 [package.dependencies]
@@ -1431,9 +1431,9 @@ fsspec = "*"
 httpx = "*"
 huggingface-hub = ">=0.13.0"
 packaging = "*"
-requests = "*"
-typing-extensions = "*"
-websockets = "*"
+requests = ">=2.0,<3.0"
+typing-extensions = ">=4.0,<5.0"
+websockets = ">=10.0,<12.0"
 
 [[package]]
 name = "greenlet"
@@ -5164,4 +5164,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "8c4ce9d32759d08649cd6c6c4afe47359f803ceabb539f6d599a8ea652a8787d"
+content-hash = "401968f5d58d011784de4210bf9fb01ff9ab7ac3a03df59afc239abd926d2873"
