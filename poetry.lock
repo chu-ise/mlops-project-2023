@@ -1376,13 +1376,13 @@ gitdb = ">=4.0.1,<5"
 
 [[package]]
 name = "gradio"
-version = "3.39.0"
+version = "3.40.1"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio-3.39.0-py3-none-any.whl", hash = "sha256:29653ffc526b4b2485130b71f38bc43b75ad1b6898b3fe8d99ba456db9a102a3"},
-    {file = "gradio-3.39.0.tar.gz", hash = "sha256:441ec4d8ce289b20b105702e3507067300e827173bdf5c135d17d90883d482e3"},
+    {file = "gradio-3.40.1-py3-none-any.whl", hash = "sha256:9fd5dc27c415418f428a219856e0dad1d7e3dd7f01c9b10a1a59bba318a84cfd"},
+    {file = "gradio-3.40.1.tar.gz", hash = "sha256:371c345959393611a3e4dee53af7589876afc134be97e08220ee4eb7f73da88c"},
 ]
 
 [package.dependencies]
@@ -1391,9 +1391,10 @@ aiohttp = ">=3.0,<4.0"
 altair = ">=4.2.0,<6.0"
 fastapi = "*"
 ffmpy = "*"
-gradio-client = ">=0.3.0"
+gradio-client = ">=0.4.0"
 httpx = "*"
 huggingface-hub = ">=0.14.0"
+importlib-resources = ">=1.3,<7.0"
 jinja2 = "<4.0"
 markdown-it-py = {version = ">=2.0.0", extras = ["linkify"]}
 markupsafe = ">=2.0,<3.0"
@@ -1414,15 +1415,18 @@ typing-extensions = ">=4.0,<5.0"
 uvicorn = ">=0.14.0"
 websockets = ">=10.0,<12.0"
 
+[package.extras]
+oauth = ["authlib", "itsdangerous"]
+
 [[package]]
 name = "gradio-client"
-version = "0.3.0"
+version = "0.4.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio_client-0.3.0-py3-none-any.whl", hash = "sha256:3144c347a080ec82a913dd329e2b50241294da0a633be03e409bc58c79cc7f4c"},
-    {file = "gradio_client-0.3.0.tar.gz", hash = "sha256:efb308d57c0ec8764f68bc136f77731d2dfdb4ac0ed546a9f396782968fe89fc"},
+    {file = "gradio_client-0.4.0-py3-none-any.whl", hash = "sha256:7dd8e0bd5800445ea985c6bc49e4198197d7367fad30e56ac6deef320b8c51b5"},
+    {file = "gradio_client-0.4.0.tar.gz", hash = "sha256:aed2ddbe7801da2a7020170d60454d01c0816eddccc5586b8794b3cb21df1c0d"},
 ]
 
 [package.dependencies]
@@ -5217,4 +5221,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "edf227c77f41f81aa95b2848d325415f332893a708190e913916ed26e45fdfcc"
+content-hash = "43d900001d2466ab9f0f043574159076ac08b529eb0a07d1d78e8b25daa241d9"
