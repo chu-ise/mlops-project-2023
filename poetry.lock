@@ -264,13 +264,13 @@ lxml = ["lxml"]
 
 [[package]]
 name = "bentoml"
-version = "1.1.3"
+version = "1.1.4"
 description = "BentoML: Build Production-Grade AI Applications"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "bentoml-1.1.3-py3-none-any.whl", hash = "sha256:117c2761246ed2597f93cac175d6fc9cab1c573d1326f959c8e1ce1d180ed7d5"},
-    {file = "bentoml-1.1.3.tar.gz", hash = "sha256:6c743faba7c3f8e7fc5989c676d386a026ae5504679793bb6ced0ffdca6a4e6c"},
+    {file = "bentoml-1.1.4-py3-none-any.whl", hash = "sha256:c131dd6cd4d1eb7f4ad0827b3660c9ce08f678832978d87ce64507f985c8a3ae"},
+    {file = "bentoml-1.1.4.tar.gz", hash = "sha256:498f6442c0fdc0e8bf39330fd93ce2912c66956395e2f133151ad1b8de201c39"},
 ]
 
 [package.dependencies]
@@ -5165,4 +5165,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "93004478718dcc9909630661c86d0d1fe1ec8e2fec0d6e96e84bbfdd1eec9d44"
+content-hash = "6d56bfd34ec1d1d02b4ad218f824823e10cb2c1278e8a75a237ce90f9e51bf23"
