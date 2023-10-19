@@ -1378,13 +1378,13 @@ gitdb = ">=4.0.1,<5"
 
 [[package]]
 name = "gradio"
-version = "3.49.0"
+version = "3.50.2"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio-3.49.0-py3-none-any.whl", hash = "sha256:3b6c13f6db6e6143fbb1acf1dbe595c01cfc917d8bd48eb19b2a48b0d575e8fe"},
-    {file = "gradio-3.49.0.tar.gz", hash = "sha256:4260fc14050fec297084a6ed0ba3d75e2933ccb30c806304c255a20b54097ba7"},
+    {file = "gradio-3.50.2-py3-none-any.whl", hash = "sha256:dffc070955225dbc3af0cf4ce93a169267485bb6972ee76ff7a0f31be77346a0"},
+    {file = "gradio-3.50.2.tar.gz", hash = "sha256:c6c81320566ba3e5688a1a58201d0729565a97b828b2bf6895e54f7bf25c01de"},
 ]
 
 [package.dependencies]
@@ -5213,4 +5213,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "b65ce45e9d8b759f3e3744b0208452daa22b772ce18b3c4ef9ccfae93f8b5882"
+content-hash = "5f3f970424654e40fa0729eb1477331d84df86d371437e69008fe83bcbd681d8"
