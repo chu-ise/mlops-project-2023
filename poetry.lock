@@ -278,19 +278,19 @@ lxml = ["lxml"]
 
 [[package]]
 name = "bentoml"
-version = "1.1.7"
+version = "1.1.10"
 description = "BentoML: Build Production-Grade AI Applications"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "bentoml-1.1.7-py3-none-any.whl", hash = "sha256:497124ef7c2e5943958a24ec960f14b8f24e7db96603cbb92fe9ca8ffd0f37ae"},
-    {file = "bentoml-1.1.7.tar.gz", hash = "sha256:afa6d9342f76cefcf20b4b75e9de83ab97a87d883b604d46794d1c9a4dd054c5"},
+    {file = "bentoml-1.1.10-py3-none-any.whl", hash = "sha256:799844571d151e7d50232d9d8d14e22d8162bfcd690ec742a76a2027e2e04628"},
+    {file = "bentoml-1.1.10.tar.gz", hash = "sha256:96017e84772751a1ca022d1f7786882072205c706ca75762fd181bdc9f5ca4fa"},
 ]
 
 [package.dependencies]
 aiohttp = "*"
 attrs = ">=21.1.0"
-cattrs = ">=22.1.0"
+cattrs = ">=22.1.0,<23.2.0"
 circus = ">=0.17.0,<0.17.2 || >0.17.2"
 click = ">=7.0"
 click-option-group = "*"
@@ -301,6 +301,7 @@ httpx = "*"
 inflection = "*"
 jinja2 = ">=3.0.1"
 numpy = "*"
+nvidia-ml-py = "<12"
 opentelemetry-api = "1.20.0"
 opentelemetry-instrumentation = "0.41b0"
 opentelemetry-instrumentation-aiohttp-client = "0.41b0"
@@ -314,7 +315,6 @@ pip-requirements-parser = ">=31.2.0"
 pip-tools = ">=6.6.2"
 prometheus-client = ">=0.10.0"
 psutil = "*"
-pynvml = "<12"
 python-dateutil = "*"
 python-json-logger = "*"
 python-multipart = "*"
@@ -2591,6 +2591,17 @@ files = [
 ]
 
 [[package]]
+name = "nvidia-ml-py"
+version = "11.525.150"
+description = "Python Bindings for the NVIDIA Management Library"
+optional = false
+python-versions = "*"
+files = [
+    {file = "nvidia-ml-py-11.525.150.tar.gz", hash = "sha256:50af55b99ea167781102345a7de29bac94a57c8f38de6757ef9f945dd137c90a"},
+    {file = "nvidia_ml_py-11.525.150-py3-none-any.whl", hash = "sha256:a7c410f4a63a78119d8e9d969dbd22d3b86d8d39aa9316be56c2e6ba9271a5c3"},
+]
+
+[[package]]
 name = "openai"
 version = "0.28.1"
 description = "Python client library for the OpenAI API"
@@ -3357,17 +3368,6 @@ files = [
 
 [package.extras]
 plugins = ["importlib-metadata"]
-
-[[package]]
-name = "pynvml"
-version = "11.5.0"
-description = "Python Bindings for the NVIDIA Management Library"
-optional = false
-python-versions = ">=3.6"
-files = [
-    {file = "pynvml-11.5.0-py3-none-any.whl", hash = "sha256:5cce014ac01b098d08f06178f86c37be409b80b2e903a5a03ce15eed60f55e25"},
-    {file = "pynvml-11.5.0.tar.gz", hash = "sha256:d027b21b95b1088b9fc278117f9f61b7c67f8e33a787e9f83f735f0f71ac32d0"},
-]
 
 [[package]]
 name = "pyparsing"
@@ -5352,4 +5352,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "0c0fa56b9f726bf2425162189b1c7e83cfca473eb662bd2ce77dd4194369c021"
+content-hash = "94a0f24b83986a6a3c0065a241fecce112d2b8cd5eba5a7dbfbc96b1d92d9f25"
