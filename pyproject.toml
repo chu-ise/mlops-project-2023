@@ -16,7 +16,7 @@ mlops2023 = 'mlops2023.__cli__:main'
 python = ">=3.8.1,<3.12"
 bentoml = "^1.1.7"
 openai = "^0.28.1"
-gradio = "^4.3.0"
+gradio = "^4.7.1"
 langchain = "^0.0.340"
 transformers = "^4.35.2"
 datasets = "^2.14.5"
