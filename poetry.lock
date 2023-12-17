@@ -1404,13 +1404,13 @@ gitdb = ">=4.0.1,<5"
 
 [[package]]
 name = "gradio"
-version = "4.9.0"
+version = "4.10.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio-4.9.0-py3-none-any.whl", hash = "sha256:470682454986442e8a7d182618b545f4f0f644c0b1f2252ff2bab479d97555a3"},
-    {file = "gradio-4.9.0.tar.gz", hash = "sha256:0604bc694582548eaaadbb37bf33a5bef34345b1de8d5cf4b835334974cffc67"},
+    {file = "gradio-4.10.0-py3-none-any.whl", hash = "sha256:7595185716aff430381d010087d6ebc4eadef06fefc3dc1cfa76edcdd2c109db"},
+    {file = "gradio-4.10.0.tar.gz", hash = "sha256:d4ca039aa7f5c2783b2bbf7b465153c80bb4257edcca4d8b9c59ce6f61a75b97"},
 ]
 
 [package.dependencies]
@@ -1418,7 +1418,7 @@ aiofiles = ">=22.0,<24.0"
 altair = ">=4.2.0,<6.0"
 fastapi = "*"
 ffmpy = "*"
-gradio-client = "0.7.2"
+gradio-client = "0.7.3"
 httpx = "*"
 huggingface-hub = ">=0.19.3"
 importlib-resources = ">=1.3,<7.0"
@@ -1445,13 +1445,13 @@ oauth = ["authlib", "itsdangerous"]
 
 [[package]]
 name = "gradio-client"
-version = "0.7.2"
+version = "0.7.3"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio_client-0.7.2-py3-none-any.whl", hash = "sha256:29014b281db3d2dacecbc4cd9979dd335b3b6511d40af04edfeb4ce409ef15b1"},
-    {file = "gradio_client-0.7.2.tar.gz", hash = "sha256:d487f8bb9145b5657b06969cecb8c69f7ce3a8eaa83e0e94c5c39e224477ad65"},
+    {file = "gradio_client-0.7.3-py3-none-any.whl", hash = "sha256:b91073770470ceb9f284977064c35bc0cffaf868eb887bf352db77aa01fe342a"},
+    {file = "gradio_client-0.7.3.tar.gz", hash = "sha256:8146a1d19a125b38088dd201ddacd0008ea47ef9b0504d1c5b87ca09a43f4dcd"},
 ]
 
 [package.dependencies]
@@ -5412,4 +5412,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "6bf58f0cbf8e45a819810222e2a3a700dcf0ff192c3858aa7061cfeff9d53f81"
+content-hash = "6285b117607fb6b1df0a99f58d75af5be8c0dd2d02402725eb50abc6d399176d"
