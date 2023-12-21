@@ -2662,13 +2662,13 @@ files = [
 
 [[package]]
 name = "openai"
-version = "1.5.0"
+version = "1.6.0"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.7.1"
 files = [
-    {file = "openai-1.5.0-py3-none-any.whl", hash = "sha256:42d8c84b0714c990e18afe81d37f8a64423e8196bf7157b8ea665b8d8f393253"},
-    {file = "openai-1.5.0.tar.gz", hash = "sha256:4cd91e97988ccd6c44f815107def9495cbc718aeb8b28be33a87b6fa2c432508"},
+    {file = "openai-1.6.0-py3-none-any.whl", hash = "sha256:2fdef174c1c182b99ea1b615b6f8583ed5ea11c43edd1c138e66ac55797b0488"},
+    {file = "openai-1.6.0.tar.gz", hash = "sha256:204e9358ecb6fa005450cd24256d9788aa0867c59c4e0417d7f78382256942c9"},
 ]
 
 [package.dependencies]
@@ -2678,7 +2678,7 @@ httpx = ">=0.23.0,<1"
 pydantic = ">=1.9.0,<3"
 sniffio = "*"
 tqdm = ">4"
-typing-extensions = ">=4.5,<5"
+typing-extensions = ">=4.7,<5"
 
 [package.extras]
 datalib = ["numpy (>=1)", "pandas (>=1.2.3)", "pandas-stubs (>=1.1.0.11)"]
@@ -4894,13 +4894,13 @@ test = ["black (>=22.3.0,<23.0.0)", "coverage (>=6.2,<7.0)", "isort (>=5.0.6,<6.
 
 [[package]]
 name = "typing-extensions"
-version = "4.6.3"
-description = "Backported and Experimental Type Hints for Python 3.7+"
+version = "4.9.0"
+description = "Backported and Experimental Type Hints for Python 3.8+"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "typing_extensions-4.6.3-py3-none-any.whl", hash = "sha256:88a4153d8505aabbb4e13aacb7c486c2b4a33ca3b3f807914a9b4c844c471c26"},
-    {file = "typing_extensions-4.6.3.tar.gz", hash = "sha256:d91d5919357fe7f681a9f2b5b4cb2a5f1ef0a1e9f59c4d8ff0d3491e05c0ffd5"},
+    {file = "typing_extensions-4.9.0-py3-none-any.whl", hash = "sha256:af72aea155e91adfc61c3ae9e0e342dbc0cba726d6cba4b6c72c1f34e47291cd"},
+    {file = "typing_extensions-4.9.0.tar.gz", hash = "sha256:23478f88c37f27d76ac8aee6c905017a143b0b1b886c3c9f66bc2fd94f9f5783"},
 ]
 
 [[package]]
@@ -5412,4 +5412,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "6bf58f0cbf8e45a819810222e2a3a700dcf0ff192c3858aa7061cfeff9d53f81"
+content-hash = "7d884db2487d4f610b298998725b74264f1be98ba2cd7ac35ec3d1133f8d98fc"
