@@ -278,13 +278,13 @@ lxml = ["lxml"]
 
 [[package]]
 name = "bentoml"
-version = "1.1.11"
+version = "1.2.1"
 description = "BentoML: Build Production-Grade AI Applications"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "bentoml-1.1.11-py3-none-any.whl", hash = "sha256:fd7a4989899cc5b683fa9f88ec72744ee19a0b9db72c5ea8b8a28f66af6c99af"},
-    {file = "bentoml-1.1.11.tar.gz", hash = "sha256:ac2ab7543b7409e3daf49ccee21e816f95a90a8d1f9682662ef752f56cb13672"},
+    {file = "bentoml-1.2.1-py3-none-any.whl", hash = "sha256:d8d2c2a17253957814ccdad94fcd15780045e899e48cafb995f233e06d69798f"},
+    {file = "bentoml-1.2.1.tar.gz", hash = "sha256:9ec65cd5037dde7b095dc79a143e7af042777dcff5a0430ac7e29c4e876981b9"},
 ]
 
 [package.dependencies]
@@ -315,6 +315,7 @@ pip-requirements-parser = ">=31.2.0"
 pip-tools = ">=6.6.2"
 prometheus-client = ">=0.10.0"
 psutil = "*"
+pydantic = "<3"
 python-dateutil = "*"
 python-json-logger = "*"
 python-multipart = "*"
@@ -333,17 +334,16 @@ aws = ["fs-s3fs"]
 grpc = ["grpcio", "grpcio-health-checking", "opentelemetry-instrumentation-grpc (==0.41b0)", "protobuf"]
 grpc-channelz = ["bentoml[grpc]", "grpcio-channelz"]
 grpc-reflection = ["bentoml[grpc]", "grpcio-reflection"]
-io = ["bentoml[io-file,io-image,io-json,io-pandas]"]
+io = ["bentoml[io-file,io-image,io-pandas]"]
 io-file = ["filetype"]
 io-image = ["bentoml[io-file]", "pillow"]
-io-json = ["pydantic (<2)"]
 io-pandas = ["pandas (>=1)", "pyarrow"]
 monitor-otlp = ["opentelemetry-exporter-otlp-proto-http (==1.20.0)"]
 tracing = ["bentoml[tracing-jaeger,tracing-otlp,tracing-zipkin]"]
 tracing-jaeger = ["opentelemetry-exporter-jaeger (==1.20.0)"]
 tracing-otlp = ["opentelemetry-exporter-otlp (==1.20.0)"]
 tracing-zipkin = ["opentelemetry-exporter-zipkin (==1.20.0)"]
-triton = ["tritonclient[all] (>=2.29.0)"]
+triton = ["tritonclient (>=2.29.0)", "tritonclient[all]"]
 
 [[package]]
 name = "black"
@@ -5512,4 +5512,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "ae2386fb192aed805d8704cdd77fe2c8780dc33204bc65076284f7ac74ccbc78"
+content-hash = "95b41503171026d7231eacafccdddfa1a7eee3c1b44dd10870e7b0e31edb3ce3"
