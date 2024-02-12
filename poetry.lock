@@ -1405,13 +1405,13 @@ gitdb = ">=4.0.1,<5"
 
 [[package]]
 name = "gradio"
-version = "4.17.0"
+version = "4.18.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio-4.17.0-py3-none-any.whl", hash = "sha256:066012ffd0747e87fa8cde4409d73fb6a71a6aaba881e5348fa119a1ff1cdfcc"},
-    {file = "gradio-4.17.0.tar.gz", hash = "sha256:9592569baddab1d76c27b07ab5f11bb505a6a7dea8bd537f1031b41a7d1bd76f"},
+    {file = "gradio-4.18.0-py3-none-any.whl", hash = "sha256:37ac246c9b660a9a72545ac00600c7f8a3e95793e895c86c82c33a5360749d5b"},
+    {file = "gradio-4.18.0.tar.gz", hash = "sha256:36fc7ada31219da9f372dd88f505748aeadea7e58d33c27db1d3ed6d24bc0619"},
 ]
 
 [package.dependencies]
@@ -1419,7 +1419,7 @@ aiofiles = ">=22.0,<24.0"
 altair = ">=4.2.0,<6.0"
 fastapi = "*"
 ffmpy = "*"
-gradio-client = "0.9.0"
+gradio-client = "0.10.0"
 httpx = "*"
 huggingface-hub = ">=0.19.3"
 importlib-resources = ">=1.3,<7.0"
@@ -1447,13 +1447,13 @@ oauth = ["authlib", "itsdangerous"]
 
 [[package]]
 name = "gradio-client"
-version = "0.9.0"
+version = "0.10.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio_client-0.9.0-py3-none-any.whl", hash = "sha256:b6696135d03471257cfd26eeb963c1360ccc68a76c2009563966629aadf19f58"},
-    {file = "gradio_client-0.9.0.tar.gz", hash = "sha256:8fb35dc3338732f3ecc79a8bda0ef1cb8ab9a85867a07368e0eb4b558f204f17"},
+    {file = "gradio_client-0.10.0-py3-none-any.whl", hash = "sha256:2bcfe61710f9f1c8f336fa9ff0f5c5f0ea52079233196cd753ad30cccdfd585c"},
+    {file = "gradio_client-0.10.0.tar.gz", hash = "sha256:feaee70f18363d76f81a7d25fc3456f40ed5f92417e642c8f1bf86dc65e3a981"},
 ]
 
 [package.dependencies]
@@ -5512,4 +5512,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "b2eecc1c52d14a4f66e176b37e58bf76fe4d1a375b06fd744273d2c0cd4341e0"
+content-hash = "ebe82a21a31f685e90a2df54b458608a2e51074a4193c9d7697a1e602e39e6bd"
