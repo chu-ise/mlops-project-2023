@@ -1937,13 +1937,13 @@ files = [
 
 [[package]]
 name = "langchain"
-version = "0.1.7"
+version = "0.1.9"
 description = "Building applications with LLMs through composability"
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "langchain-0.1.7-py3-none-any.whl", hash = "sha256:29d95f12afe9690953820970205dba3b098ee1f7531e80eb18c1236d3feda921"},
-    {file = "langchain-0.1.7.tar.gz", hash = "sha256:b40fbe2b65360afe6c0d5bbf37e79469f990779460640edde5b906175c49807e"},
+    {file = "langchain-0.1.9-py3-none-any.whl", hash = "sha256:1436a9f4e498bb9f8e01e0ab8d185771d49c0fc96b3d2da4d5bed5055015746f"},
+    {file = "langchain-0.1.9.tar.gz", hash = "sha256:da1f89aeaf5cbc225eb1d6523af0f273c062fdc40a76ec455486c3c184f741b1"},
 ]
 
 [package.dependencies]
@@ -1951,9 +1951,9 @@ aiohttp = ">=3.8.3,<4.0.0"
 async-timeout = {version = ">=4.0.0,<5.0.0", markers = "python_version < \"3.11\""}
 dataclasses-json = ">=0.5.7,<0.7"
 jsonpatch = ">=1.33,<2.0"
-langchain-community = ">=0.0.20,<0.1"
-langchain-core = ">=0.1.22,<0.2"
-langsmith = ">=0.0.83,<0.1"
+langchain-community = ">=0.0.21,<0.1"
+langchain-core = ">=0.1.26,<0.2"
+langsmith = ">=0.1.0,<0.2.0"
 numpy = ">=1,<2"
 pydantic = ">=1,<3"
 PyYAML = ">=5.3"
@@ -1977,20 +1977,20 @@ text-helpers = ["chardet (>=5.1.0,<6.0.0)"]
 
 [[package]]
 name = "langchain-community"
-version = "0.0.20"
+version = "0.0.24"
 description = "Community contributed LangChain integrations."
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "langchain_community-0.0.20-py3-none-any.whl", hash = "sha256:bd112b5813702919c50f89b1afa2b63adf1da89999df4842b327ee11220f8c39"},
-    {file = "langchain_community-0.0.20.tar.gz", hash = "sha256:c56c48bc77d24e1fc399a9ee9a637d96e3b2ff952e3a080b5a41820d9d00fb3c"},
+    {file = "langchain_community-0.0.24-py3-none-any.whl", hash = "sha256:575e776817d6f5e3dfdff0230049de342e06aaa60fb1924316cf82b4e710fe84"},
+    {file = "langchain_community-0.0.24.tar.gz", hash = "sha256:fd609f6c962cca4b7b75f2159f1fbf74b14fdd45011ee2be53e95db4e678837f"},
 ]
 
 [package.dependencies]
 aiohttp = ">=3.8.3,<4.0.0"
 dataclasses-json = ">=0.5.7,<0.7"
-langchain-core = ">=0.1.21,<0.2"
-langsmith = ">=0.0.83,<0.1"
+langchain-core = ">=0.1.26,<0.2"
+langsmith = ">=0.1.0,<0.2.0"
 numpy = ">=1,<2"
 PyYAML = ">=5.3"
 requests = ">=2,<3"
@@ -2003,19 +2003,19 @@ extended-testing = ["aiosqlite (>=0.19.0,<0.20.0)", "aleph-alpha-client (>=2.15.
 
 [[package]]
 name = "langchain-core"
-version = "0.1.23"
+version = "0.1.26"
 description = "Building applications with LLMs through composability"
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "langchain_core-0.1.23-py3-none-any.whl", hash = "sha256:d42fac013c39a8b0bcd7e337a4cb6c17c16046c60d768f89df582ad73ec3c5cb"},
-    {file = "langchain_core-0.1.23.tar.gz", hash = "sha256:34359cc8b6f8c3d45098c54a6a9b35c9f538ef58329cd943a2249d6d7b4e5806"},
+    {file = "langchain_core-0.1.26-py3-none-any.whl", hash = "sha256:4f54cd26c27473172d7a214a5507a4c0e3255c6d8c25d9087afdc967f5588516"},
+    {file = "langchain_core-0.1.26.tar.gz", hash = "sha256:6186758d62015723aac67ef1a2055695d03e82c4dd4074217975b0c62faf4b17"},
 ]
 
 [package.dependencies]
 anyio = ">=3,<5"
 jsonpatch = ">=1.33,<2.0"
-langsmith = ">=0.0.87,<0.0.88"
+langsmith = ">=0.1.0,<0.2.0"
 packaging = ">=23.2,<24.0"
 pydantic = ">=1,<3"
 PyYAML = ">=5.3"
@@ -2027,16 +2027,17 @@ extended-testing = ["jinja2 (>=3,<4)"]
 
 [[package]]
 name = "langsmith"
-version = "0.0.87"
+version = "0.1.8"
 description = "Client library to connect to the LangSmith LLM Tracing and Evaluation Platform."
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "langsmith-0.0.87-py3-none-any.whl", hash = "sha256:8903d3811b9fc89eb18f5961c8e6935fbd2d0f119884fbf30dc70b8f8f4121fc"},
-    {file = "langsmith-0.0.87.tar.gz", hash = "sha256:36c4cc47e5b54be57d038036a30fb19ce6e4c73048cd7a464b8f25b459694d34"},
+    {file = "langsmith-0.1.8-py3-none-any.whl", hash = "sha256:f4320fd80ec9d311a648e7d4c44e0814e6e5454772c5026f40db0307bc07e287"},
+    {file = "langsmith-0.1.8.tar.gz", hash = "sha256:ab5f1cdfb7d418109ea506d41928fb8708547db2f6c7f7da7cfe997f3c55767b"},
 ]
 
 [package.dependencies]
+orjson = ">=3.9.14,<4.0.0"
 pydantic = ">=1,<3"
 requests = ">=2,<3"
 
@@ -5520,4 +5521,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.12"
-content-hash = "31e2c7c2e560a305bfc2476a797d3fd3d774f3d5b7b6b7c7adc525c386265528"
+content-hash = "0d698657b9d3d8e30b3e5f39ec975847d7918138a7deb34056b8da9279127cef"
